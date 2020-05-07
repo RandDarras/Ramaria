@@ -1,0 +1,56 @@
+<!DOCTYPE html>s
+
+<html>
+
+  <head>
+    <title>Ramaria</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet"> <!-- For Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@1,200&display=swap" rel="stylesheet"> <!-- For Fonts -->
+  </head>
+
+
+
+
+
+  <body>
+
+   <div class ="split left">
+    <img src = "logo.png" id="logo"/> <!-- Ramaria Logo -->
+   </div>
+
+
+   <div class="split right">
+    <div id = "firstInterFace"> 
+      <input type="text" placeholder=" write your name please" class = "firstInput"> 
+      <button class = "firstInput" id = "but"> <a href = "index2.html" > Enter </a></button>
+      <button class = "firstInput" id = "but"> <a href = "index2.html" > Skip </a></button>
+    </div>
+   </div> 
+
+
+
+   <script type="text/javascript">
+
+      // to create random index for the tip that will be displayed
+      var randomElement = function(array){
+        var randomIndex = Math.floor(Math.random() * array.length);
+        return array[randomIndex];
+      };
+
+      // Array of tips
+      var quotes = [ "Make Today Remarkable","Don't Forget To Drink Enough Water" ,"Read 2 Pages From Your fav Book" ,"Call An Old Friend","Start Your Day With An Apple" ]
+
+      var x = randomElement(quotes)
+
+      var y = document.createElement("p")
+      y.innerHTML = x
+      var r = document.getElementById("firstInterFace")
+      r.appendChild(y)
+
+   </script>
+
+
+  </body>
+
+</html>

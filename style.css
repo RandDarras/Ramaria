@@ -1,0 +1,131 @@
+/*this for split the page in half*/
+
+.split {
+  height: 100%;
+  width: 60%;
+  position: fixed;
+  top: 0;
+  padding-top: 200px;
+}
+
+.left {
+  left: 0;
+  background-color:  RGB(255,241,237);
+}
+
+.right {
+  right: 0;
+  background-color: RGB(55,75,115);
+  position: fixed 
+}
+
+/*==========================================*/
+
+/*to assigne the todo list style*/
+
+ul {
+  list-style-image: url('final.png') ;
+  border: 4px solid white ;
+  border-style: none none solid none;
+}
+
+.firstInput {
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/*==========================================*/
+
+/*to assigne the tips style*/
+
+p {
+  font-family: 'Jost', sans-serif;
+  font-size: 25px;
+  color:white;
+}
+
+/*==========================================*/
+
+/* the elements on the right side of main page style */
+#firstInterFace {
+  padding-top: 75px;
+  padding-left: 250px
+
+}
+
+/*==========================================*/
+
+/* enter && skip buttons hyperlink style */
+a:link {
+  text-decoration: none;
+   font-size : 15px;
+  color: RGB(55,75,115)
+}
+
+/*==========================================*/
+
+/* elements on the right side of the second page */
+#addDiv{
+
+  padding-left: 250px;
+  padding-top: 0px;
+  padding-bottom: 400px;
+font-size: 20px;
+color :white;
+
+}
+
+/*==========================================*/
+
+/* buttons styling  in both pages */
+
+#but:hover {
+  background-color: RGB(255,241,237);
+  color: white;
+}
+
+#but
+{
+font-family: 'Jost', sans-serif;
+font-size: 20px
+  transition-duration: 0.4s;
+
+  background-color:RGB(255,129,151);
+  border-radius: 12px;
+}
+
+
+#add-task:hover {
+  background-color: RGB(255,241,237);
+  color: white;
+}
+
+#clearbtn:hover {
+  background-color: RGB(255,241,237);
+  color: white;
+}
+
+#donelist ,#add-task, #clearbtn {
+  font-family: 'Jost', sans-serif;
+font-size: 20px
+  transition-duration: 0.4s;
+
+  background-color:RGB(255,129,151);
+  border-radius: 12px;
+
+}
+#donelist:hover {
+  background-color: RGB(255,241,237);
+  color: white;
+}
+
+/*==========================================*/
+
+/*Header styling*/
+
+h2 {
+font-family: 'Jost', sans-serif;
+}
